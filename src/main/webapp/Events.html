@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Upcoming Events - Smart Grampanchayat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+    }
+    .header {
+      background: linear-gradient(135deg, #FFD700, #FFA500);
+      color: black;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .header h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .header h2 {
+      font-size: 24px;
+      margin-top: 5px;
+      font-weight: normal;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background: #333;
+      padding: 10px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .navbar a:hover {
+      background: #555;
+      border-radius: 5px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .event {
+      padding: 15px;
+      margin-bottom: 15px;
+      background: linear-gradient(135deg, #ff7f50, #ff4500);
+      color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .event h3 {
+      margin-bottom: 5px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .event p {
+      font-size: 16px;
+    }
+    .event .date {
+      font-weight: bold;
+    }
+    .admin-controls {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .admin-controls button {
+      background: #ff4500;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .admin-controls button:hover {
+      background: #e63900;
+    }
+    footer {
+      text-align: center;
+      background: #FFD700;
+      color: black;
+      padding: 12px;
+      margin-top: 20px;
+      box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <h1>SMART GRAMPANCHAYAT</h1>
+  <h2>Upcoming Events</h2>
+</header>
+<nav class="navbar">
+  <a href="Dashboard.jsp">Dashboard</a>
+  <a href="Schemeregistration.html">Apply For Schemes</a>
+  <a href="Complaint.html">Complaint Box</a>
+</nav>
+<div class="container">
+  <div class="event">
+    <h3>Farmers' Awareness Program</h3>
+    <p class="date">Date: April 5, 2025</p>
+    <p>Join us to learn modern farming techniques and government schemes for farmers.</p>
+  </div>
+  <div class="event">
+    <h3>Women Empowerment Seminar</h3>
+    <p class="date">Date: April 7, 2025</p>
+    <p>Encouraging women to participate in self-help groups and entrepreneurship.</p>
+  </div>
+  <div class="event">
+    <h3>Free Wi-Fi Launch in Village</h3>
+    <p class="date">Date: April 15, 2025</p>
+    <p>High-speed internet access for everyone in the village to enhance digital connectivity.</p>
+  </div>
+</div>
+<footer class="footer" style="background-color:#ffcc00;">
+  <div class="footer-container">
+
+    <div class="footer-address">
+      <h3  style="color:black;">Grampanchayat Office</h3>
+      <p  style="color:black;"><i class="fas fa-map-marker-alt"></i> Kankapur, Sangamner, Aahilyanagar, Maharashtra, India.</p>
+      <p  style="color:black;"><i class="fas fa-phone-alt"></i> STD Code: +91-2425</p>
+    </div>
+
+    <div class="footer-map">
+      <h3  style="color:black;">Find Us on the Map</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXYZ!2dLongitude!3dLatitude!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xXXXXXXXXX!2sKankapur%2C+Maharashtra!5e0!3m2!1sen!2sin!4vXXXXXXXXXXXX"
+        width="100%"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p  style="color:black;"> Grampanchayat Department. All rights reserved.<br>
+    Design and Developed by Future Developers Team</p>
+  </div>
+</footer>
+</body>
+</html>
