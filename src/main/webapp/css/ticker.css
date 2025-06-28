@@ -1,0 +1,14 @@
+#rightside {
+  width:200px; height:440px; overflow:auto; border:1px solid #aaaaaa;
+}
+#rightside dt {
+  font:normal 14px Georgia; padding:0 10px 5px 10px;
+  background-color:#e5e5e5; padding-top:10px; border:1px solid #ffffff;
+  border-bottom:none; border-right:none;
+}
+#rightside dd {
+  margin-left:0; font:normal 11px Verdana; padding:0 10px 10px 10px;
+  border-bottom:1px solid #aaaaaa;
+  border-left:1px solid #ffffff;
+}
+#rightside dd.last { border-bottom:1px solid #ffffff;}

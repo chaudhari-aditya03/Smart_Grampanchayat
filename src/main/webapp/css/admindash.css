@@ -1,0 +1,79 @@
+  
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+    }
+    header {
+      background: linear-gradient(90deg, #FFD700, #FFA500);
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      padding: 20px;
+      color: #333;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      padding-top: 60px;
+    }
+    .sidenav a {
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      background-color: #FFD700;
+      color: black;
+    }
+    .main-content {
+      margin-left: 260px;
+      padding: 20px;
+    }
+    
+    .container {
+      background: white;
+      border-radius: 8px;
+      padding: 100px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .container:hover {
+      transform: scale(1.02);
+    }
+    .dashboard-cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      flex: 1;
+      min-width: 250px;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      background: linear-gradient(90deg, #FFA500, #FFD700);
+      color: #333;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background-color: #FFD700;
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    }
+ 

@@ -1,0 +1,107 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background: #FFD700;
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .village-name, .location {
+      font-size: 18px;
+      display: block;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      background: #FFD700;
+      border-radius: 5px;
+      color: black;
+    }
+    .container {
+      width: 100%;
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .slider-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    .login-btn, .register-btn {
+      background: #FFD700;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .login-btn:hover, .register-btn:hover {
+      background: #FFC107;
+    }
+    .form-container {
+      display: none;
+    }
+    .form-container.active {
+      display: block;
+    }
+    input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background: #FFD700;
+      border: none;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .submit-btn:hover {
+      background: #FFC107;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background: #FFD700;
+      color: #000;
+      margin-top: 20px;
+    }
